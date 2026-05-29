@@ -81,6 +81,46 @@ activities.update({
     }
 })
 
+# Added additional activities: sports, artistic, and intellectual
+activities.update({
+    "Volleyball Team": {
+        "description": "Team practices and competitive matches",
+        "schedule": "Mondays and Wednesdays, 4:30 PM - 6:30 PM",
+        "max_participants": 18,
+        "participants": ["oliver@mergington.edu", "sophia.v@mergington.edu"]
+    },
+    "Swimming Club": {
+        "description": "Laps, technique training, and swim meets",
+        "schedule": "Tuesdays and Thursdays, 5:00 PM - 6:30 PM",
+        "max_participants": 20,
+        "participants": ["charlotte@mergington.edu", "henry@mergington.edu"]
+    },
+    "Photography Club": {
+        "description": "Explore digital and film photography techniques",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["zoe@mergington.edu", "nathan@mergington.edu"]
+    },
+    "Music Ensemble": {
+        "description": "Instrumental ensemble rehearsals and performances",
+        "schedule": "Fridays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["ava.m@mergington.edu", "jack@mergington.edu"]
+    },
+    "Robotics Club": {
+        "description": "Build and program robots for competitions",
+        "schedule": "Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["olivia.r@mergington.edu", "noah.k@mergington.edu"]
+    },
+    "Math Olympiad": {
+        "description": "Advanced problem solving and contest preparation",
+        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["liam.m@mergington.edu", "emma.l@mergington.edu"]
+    }
+})
+
 
 @app.get("/")
 def root():
